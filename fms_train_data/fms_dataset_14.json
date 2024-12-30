@@ -6,62 +6,71 @@
                 {
                     "job_id": 0,
                     "op_id": 0,
-                    "machine": 7,
-                    "processing_time": 12.631794079511558,
+                    "machine": 3,
+                    "processing_time": 3.291743072779548,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 0,
                     "op_id": 1,
-                    "machine": 2,
-                    "processing_time": 16.244482540487727,
-                    "setup_time": 2.5091414554163345,
+                    "machine": 8,
+                    "processing_time": 12.514113478984372,
+                    "setup_time": 1.207915728214966,
                     "status": "pending"
                 },
                 {
                     "job_id": 0,
                     "op_id": 2,
-                    "machine": 2,
-                    "processing_time": 16.307119145677724,
-                    "setup_time": 0.1643087082813396,
+                    "machine": 9,
+                    "processing_time": 10.98725065191073,
+                    "setup_time": 0.18493920469324576,
                     "status": "pending"
                 },
                 {
                     "job_id": 0,
                     "op_id": 3,
-                    "machine": 9,
-                    "processing_time": 9.077646645961199,
-                    "setup_time": 1.3960783324415027,
+                    "machine": 3,
+                    "processing_time": 16.796411152643646,
+                    "setup_time": 1.287600816479578,
                     "status": "pending"
                 },
                 {
                     "job_id": 0,
                     "op_id": 4,
-                    "machine": 8,
-                    "processing_time": 11.042902782641976,
-                    "setup_time": 2.4922399046194714,
+                    "machine": 9,
+                    "processing_time": 9.451317342281303,
+                    "setup_time": 2.8920300632270637,
                     "status": "pending"
                 },
                 {
                     "job_id": 0,
                     "op_id": 5,
-                    "machine": 5,
-                    "processing_time": 10.691277513750784,
-                    "setup_time": 2.5947055645361035,
+                    "machine": 4,
+                    "processing_time": 12.05948200810311,
+                    "setup_time": 2.792714738782259,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 0,
+                    "op_id": 6,
+                    "machine": 2,
+                    "processing_time": 9.442280995283639,
+                    "setup_time": 1.1227881694869217,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 19,
+            "arrival_time": 13,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 1,
             "machine_seq": [
-                7,
-                2,
-                2,
-                9,
+                3,
                 8,
-                5
+                9,
+                3,
+                9,
+                4,
+                2
             ],
             "current_operation": 0
         },
@@ -71,8 +80,8 @@
                 {
                     "job_id": 1,
                     "op_id": 0,
-                    "machine": 7,
-                    "processing_time": 13.387785199762009,
+                    "machine": 2,
+                    "processing_time": 12.168489185450403,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
@@ -80,25 +89,61 @@
                     "job_id": 1,
                     "op_id": 1,
                     "machine": 0,
-                    "processing_time": 14.14579224908336,
-                    "setup_time": 2.6570098162614073,
+                    "processing_time": 16.769239176425508,
+                    "setup_time": 2.3842461365701832,
                     "status": "pending"
                 },
                 {
                     "job_id": 1,
                     "op_id": 2,
+                    "machine": 8,
+                    "processing_time": 6.57094974698649,
+                    "setup_time": 2.046152790509387,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 1,
+                    "op_id": 3,
+                    "machine": 3,
+                    "processing_time": 10.852129871361237,
+                    "setup_time": 0.2804726442613208,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 1,
+                    "op_id": 4,
+                    "machine": 0,
+                    "processing_time": 8.00655366549768,
+                    "setup_time": 1.963779499764887,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 1,
+                    "op_id": 5,
                     "machine": 5,
-                    "processing_time": 6.421060280355884,
-                    "setup_time": 1.1780093772837819,
+                    "processing_time": 15.934026075531317,
+                    "setup_time": 0.24581345273675947,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 1,
+                    "op_id": 6,
+                    "machine": 5,
+                    "processing_time": 13.803258915377016,
+                    "setup_time": 0.15905305641482737,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 0,
+            "arrival_time": 24,
             "completed_operations": 0,
-            "priority": 2,
+            "priority": 4,
             "machine_seq": [
-                7,
+                2,
                 0,
+                8,
+                3,
+                0,
+                5,
                 5
             ],
             "current_operation": 0
@@ -109,44 +154,71 @@
                 {
                     "job_id": 2,
                     "op_id": 0,
-                    "machine": 8,
-                    "processing_time": 9.453190330986029,
+                    "machine": 7,
+                    "processing_time": 5.295732486215126,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 2,
                     "op_id": 1,
-                    "machine": 7,
-                    "processing_time": 10.809673358819339,
-                    "setup_time": 0.18158768535477177,
+                    "machine": 5,
+                    "processing_time": 15.483498442219242,
+                    "setup_time": 1.1669248036770279,
                     "status": "pending"
                 },
                 {
                     "job_id": 2,
                     "op_id": 2,
-                    "machine": 5,
-                    "processing_time": 15.183178922110958,
-                    "setup_time": 2.8797838849278556,
+                    "machine": 3,
+                    "processing_time": 7.610360437939067,
+                    "setup_time": 0.6614254633026752,
                     "status": "pending"
                 },
                 {
                     "job_id": 2,
                     "op_id": 3,
+                    "machine": 1,
+                    "processing_time": 15.168516790416511,
+                    "setup_time": 1.282886012280592,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 2,
+                    "op_id": 4,
                     "machine": 2,
-                    "processing_time": 9.212341179911139,
-                    "setup_time": 0.6965321678163342,
+                    "processing_time": 10.192155622590715,
+                    "setup_time": 1.561966702782444,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 2,
+                    "op_id": 5,
+                    "machine": 1,
+                    "processing_time": 6.288683756023208,
+                    "setup_time": 2.738170133836597,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 2,
+                    "op_id": 6,
+                    "machine": 6,
+                    "processing_time": 8.366607574458033,
+                    "setup_time": 0.678970642329827,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 8,
+            "arrival_time": 50,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 5,
             "machine_seq": [
-                8,
                 7,
                 5,
-                2
+                3,
+                1,
+                2,
+                1,
+                6
             ],
             "current_operation": 0
         },
@@ -156,35 +228,53 @@
                 {
                     "job_id": 3,
                     "op_id": 0,
-                    "machine": 9,
-                    "processing_time": 7.902078494842281,
+                    "machine": 2,
+                    "processing_time": 9.92622636382538,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 3,
                     "op_id": 1,
-                    "machine": 0,
-                    "processing_time": 10.859885740616082,
-                    "setup_time": 2.7294280835298306,
+                    "machine": 6,
+                    "processing_time": 8.080239604248796,
+                    "setup_time": 0.9813840986618176,
                     "status": "pending"
                 },
                 {
                     "job_id": 3,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 15.874500366042149,
-                    "setup_time": 0.4253363855792367,
+                    "machine": 9,
+                    "processing_time": 8.82058817930781,
+                    "setup_time": 0.9843579164984926,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 3,
+                    "op_id": 3,
+                    "machine": 1,
+                    "processing_time": 7.746162679872017,
+                    "setup_time": 1.2760669948033327,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 3,
+                    "op_id": 4,
+                    "machine": 1,
+                    "processing_time": 10.852325406086939,
+                    "setup_time": 1.2920973313165307,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 6,
+            "arrival_time": 22,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 1,
             "machine_seq": [
+                2,
+                6,
                 9,
-                0,
-                8
+                1,
+                1
             ],
             "current_operation": 0
         },
@@ -194,35 +284,35 @@
                 {
                     "job_id": 4,
                     "op_id": 0,
-                    "machine": 9,
-                    "processing_time": 11.58944797884791,
+                    "machine": 5,
+                    "processing_time": 12.967207692275046,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 4,
                     "op_id": 1,
-                    "machine": 0,
-                    "processing_time": 16.563951949896932,
-                    "setup_time": 0.8264750432699863,
+                    "machine": 7,
+                    "processing_time": 16.73269144727346,
+                    "setup_time": 1.8935760281658798,
                     "status": "pending"
                 },
                 {
                     "job_id": 4,
                     "op_id": 2,
-                    "machine": 2,
-                    "processing_time": 13.383146350730025,
-                    "setup_time": 0.920790872674628,
+                    "machine": 8,
+                    "processing_time": 17.092530197021517,
+                    "setup_time": 2.0831510870981345,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 5,
+            "arrival_time": 7,
             "completed_operations": 0,
             "priority": 3,
             "machine_seq": [
-                9,
-                0,
-                2
+                5,
+                7,
+                8
             ],
             "current_operation": 0
         },
@@ -232,34 +322,34 @@
                 {
                     "job_id": 5,
                     "op_id": 0,
-                    "machine": 7,
-                    "processing_time": 7.263738327696652,
+                    "machine": 1,
+                    "processing_time": 14.66419552246479,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 5,
                     "op_id": 1,
-                    "machine": 3,
-                    "processing_time": 10.57778606684078,
-                    "setup_time": 1.0093738898982554,
+                    "machine": 6,
+                    "processing_time": 6.316222427031831,
+                    "setup_time": 1.603009447940635,
                     "status": "pending"
                 },
                 {
                     "job_id": 5,
                     "op_id": 2,
                     "machine": 1,
-                    "processing_time": 17.004207285935067,
-                    "setup_time": 2.405290552833843,
+                    "processing_time": 12.451990159353056,
+                    "setup_time": 1.0989994541213899,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 41,
+            "arrival_time": 48,
             "completed_operations": 0,
-            "priority": 2,
+            "priority": 1,
             "machine_seq": [
-                7,
-                3,
+                1,
+                6,
                 1
             ],
             "current_operation": 0
@@ -270,80 +360,80 @@
                 {
                     "job_id": 6,
                     "op_id": 0,
-                    "machine": 6,
-                    "processing_time": 12.31891710761819,
+                    "machine": 8,
+                    "processing_time": 4.9385813906507785,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 1,
-                    "machine": 8,
-                    "processing_time": 11.684260678094049,
-                    "setup_time": 2.86573640308844,
+                    "machine": 9,
+                    "processing_time": 8.680285375454346,
+                    "setup_time": 2.37393227969436,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 6.90684305058151,
-                    "setup_time": 0.4650743145203552,
+                    "machine": 3,
+                    "processing_time": 6.098770954558731,
+                    "setup_time": 0.5422016285993932,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 3,
-                    "machine": 3,
-                    "processing_time": 6.43116393565884,
-                    "setup_time": 1.208358294350011,
+                    "machine": 1,
+                    "processing_time": 13.659707248883374,
+                    "setup_time": 0.9065760636591673,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 4,
-                    "machine": 1,
-                    "processing_time": 11.43530084779267,
-                    "setup_time": 2.2896450605087564,
+                    "machine": 5,
+                    "processing_time": 6.308523658441767,
+                    "setup_time": 1.0064809408792383,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 5,
-                    "machine": 3,
-                    "processing_time": 12.427524741715352,
-                    "setup_time": 2.6285447280284098,
+                    "machine": 9,
+                    "processing_time": 13.34787322889359,
+                    "setup_time": 1.8477342932663177,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 6,
-                    "machine": 7,
-                    "processing_time": 15.91263874101713,
-                    "setup_time": 1.2370414906215625,
+                    "machine": 1,
+                    "processing_time": 13.750354809166447,
+                    "setup_time": 0.5567890031184116,
                     "status": "pending"
                 },
                 {
                     "job_id": 6,
                     "op_id": 7,
-                    "machine": 9,
-                    "processing_time": 10.372465206432762,
-                    "setup_time": 0.8464934771318318,
+                    "machine": 7,
+                    "processing_time": 7.2926749277741605,
+                    "setup_time": 2.961723809983388,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 5,
+            "arrival_time": 35,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 2,
             "machine_seq": [
-                6,
                 8,
-                8,
+                9,
                 3,
                 1,
-                3,
-                7,
-                9
+                5,
+                9,
+                1,
+                7
             ],
             "current_operation": 0
         },
@@ -353,44 +443,80 @@
                 {
                     "job_id": 7,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 9.884474564704028,
+                    "machine": 6,
+                    "processing_time": 12.962443714247534,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 7,
                     "op_id": 1,
-                    "machine": 7,
-                    "processing_time": 13.293776637090009,
-                    "setup_time": 2.296944803170045,
+                    "machine": 6,
+                    "processing_time": 15.552070707019238,
+                    "setup_time": 0.10205468623812697,
                     "status": "pending"
                 },
                 {
                     "job_id": 7,
                     "op_id": 2,
-                    "machine": 3,
-                    "processing_time": 15.197198861715421,
-                    "setup_time": 0.8138983962019286,
+                    "machine": 0,
+                    "processing_time": 13.091810784417351,
+                    "setup_time": 0.12010767944894885,
                     "status": "pending"
                 },
                 {
                     "job_id": 7,
                     "op_id": 3,
-                    "machine": 5,
-                    "processing_time": 9.627113026585647,
-                    "setup_time": 1.0502663282565279,
+                    "machine": 1,
+                    "processing_time": 8.537128491561221,
+                    "setup_time": 1.1909513570235226,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 7,
+                    "op_id": 4,
+                    "machine": 7,
+                    "processing_time": 7.415581557423919,
+                    "setup_time": 0.03257824410723276,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 7,
+                    "op_id": 5,
+                    "machine": 6,
+                    "processing_time": 9.145990700645614,
+                    "setup_time": 2.226934505636022,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 7,
+                    "op_id": 6,
+                    "machine": 9,
+                    "processing_time": 16.068358828730744,
+                    "setup_time": 1.5116516825774478,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 7,
+                    "op_id": 7,
+                    "machine": 9,
+                    "processing_time": 11.546091744783258,
+                    "setup_time": 2.365487309003202,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 17,
+            "arrival_time": 46,
             "completed_operations": 0,
             "priority": 1,
             "machine_seq": [
-                2,
+                6,
+                6,
+                0,
+                1,
                 7,
-                3,
-                5
+                6,
+                9,
+                9
             ],
             "current_operation": 0
         },
@@ -400,35 +526,44 @@
                 {
                     "job_id": 8,
                     "op_id": 0,
-                    "machine": 4,
-                    "processing_time": 8.943077841073718,
+                    "machine": 7,
+                    "processing_time": 15.500765887835122,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 8,
                     "op_id": 1,
-                    "machine": 3,
-                    "processing_time": 6.953861804837147,
-                    "setup_time": 0.6558080723723083,
+                    "machine": 8,
+                    "processing_time": 13.175821172883083,
+                    "setup_time": 0.843795643673259,
                     "status": "pending"
                 },
                 {
                     "job_id": 8,
                     "op_id": 2,
                     "machine": 2,
-                    "processing_time": 10.99640460239238,
-                    "setup_time": 2.42946894063729,
+                    "processing_time": 10.380880888056252,
+                    "setup_time": 0.0743632282178176,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 8,
+                    "op_id": 3,
+                    "machine": 8,
+                    "processing_time": 11.350084066422916,
+                    "setup_time": 1.4966725956623586,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 45,
+            "arrival_time": 40,
             "completed_operations": 0,
             "priority": 1,
             "machine_seq": [
-                4,
-                3,
-                2
+                7,
+                8,
+                2,
+                8
             ],
             "current_operation": 0
         },
@@ -438,80 +573,53 @@
                 {
                     "job_id": 9,
                     "op_id": 0,
-                    "machine": 8,
-                    "processing_time": 10.009664178737452,
+                    "machine": 9,
+                    "processing_time": 14.348523578914518,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 9,
                     "op_id": 1,
-                    "machine": 1,
-                    "processing_time": 14.051637744398594,
-                    "setup_time": 1.808440279006606,
+                    "machine": 3,
+                    "processing_time": 16.4010351622661,
+                    "setup_time": 0.6172694714909186,
                     "status": "pending"
                 },
                 {
                     "job_id": 9,
                     "op_id": 2,
-                    "machine": 2,
-                    "processing_time": 16.219018506548668,
-                    "setup_time": 1.7578534925152,
+                    "machine": 4,
+                    "processing_time": 6.511256615909007,
+                    "setup_time": 2.1957168930383757,
                     "status": "pending"
                 },
                 {
                     "job_id": 9,
                     "op_id": 3,
-                    "machine": 4,
-                    "processing_time": 12.957357070009023,
-                    "setup_time": 2.8701613750480375,
+                    "machine": 9,
+                    "processing_time": 7.873060973922506,
+                    "setup_time": 1.482594617152801,
                     "status": "pending"
                 },
                 {
                     "job_id": 9,
                     "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 18.461657118336145,
-                    "setup_time": 2.1451400083580445,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 9,
-                    "op_id": 5,
-                    "machine": 4,
-                    "processing_time": 10.581933100613394,
-                    "setup_time": 1.4742669676898021,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 9,
-                    "op_id": 6,
-                    "machine": 9,
-                    "processing_time": 6.144483347804822,
-                    "setup_time": 1.5005886558997972,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 9,
-                    "op_id": 7,
-                    "machine": 5,
-                    "processing_time": 11.40319679124907,
-                    "setup_time": 1.613517899938023,
+                    "machine": 0,
+                    "processing_time": 15.144776891470634,
+                    "setup_time": 1.4900893403709397,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 30,
+            "arrival_time": 38,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 3,
             "machine_seq": [
-                8,
-                1,
-                2,
-                4,
-                7,
+                9,
+                3,
                 4,
                 9,
-                5
+                0
             ],
             "current_operation": 0
         },
@@ -521,53 +629,80 @@
                 {
                     "job_id": 10,
                     "op_id": 0,
-                    "machine": 0,
-                    "processing_time": 6.5160970527900055,
+                    "machine": 6,
+                    "processing_time": 4.980137129041398,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 10,
                     "op_id": 1,
-                    "machine": 7,
-                    "processing_time": 14.283919744937837,
-                    "setup_time": 2.3540618907094912,
+                    "machine": 3,
+                    "processing_time": 13.2474987902882,
+                    "setup_time": 1.0687677504002095,
                     "status": "pending"
                 },
                 {
                     "job_id": 10,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 13.774937639695231,
-                    "setup_time": 2.6414398915869737,
+                    "machine": 5,
+                    "processing_time": 6.924602822328095,
+                    "setup_time": 2.143916617371591,
                     "status": "pending"
                 },
                 {
                     "job_id": 10,
                     "op_id": 3,
                     "machine": 8,
-                    "processing_time": 9.39185642404805,
-                    "setup_time": 1.7830782393890638,
+                    "processing_time": 18.116470067353713,
+                    "setup_time": 1.8222947813891235,
                     "status": "pending"
                 },
                 {
                     "job_id": 10,
                     "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 4.402819340955928,
-                    "setup_time": 1.680263042910526,
+                    "machine": 4,
+                    "processing_time": 6.569706203785235,
+                    "setup_time": 0.500088948706781,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 10,
+                    "op_id": 5,
+                    "machine": 9,
+                    "processing_time": 13.7857716379829,
+                    "setup_time": 0.9760607469724953,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 10,
+                    "op_id": 6,
+                    "machine": 9,
+                    "processing_time": 13.08580802806126,
+                    "setup_time": 0.5759941618698775,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 10,
+                    "op_id": 7,
+                    "machine": 4,
+                    "processing_time": 8.342024888009174,
+                    "setup_time": 0.145021256517758,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 42,
+            "arrival_time": 44,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 4,
             "machine_seq": [
-                0,
-                7,
+                6,
+                3,
+                5,
                 8,
-                8,
-                7
+                4,
+                9,
+                9,
+                4
             ],
             "current_operation": 0
         },
@@ -577,71 +712,44 @@
                 {
                     "job_id": 11,
                     "op_id": 0,
-                    "machine": 6,
-                    "processing_time": 6.0676746536302435,
+                    "machine": 4,
+                    "processing_time": 15.13655879899888,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 11,
                     "op_id": 1,
-                    "machine": 4,
-                    "processing_time": 15.94099318196114,
-                    "setup_time": 2.6798985911181337,
+                    "machine": 1,
+                    "processing_time": 10.751570762690546,
+                    "setup_time": 0.6372641568753601,
                     "status": "pending"
                 },
                 {
                     "job_id": 11,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 18.199181585257175,
-                    "setup_time": 1.4660401067120459,
+                    "machine": 5,
+                    "processing_time": 6.760106006724916,
+                    "setup_time": 0.35912551821532257,
                     "status": "pending"
                 },
                 {
                     "job_id": 11,
                     "op_id": 3,
-                    "machine": 6,
-                    "processing_time": 13.462660796945233,
-                    "setup_time": 0.3545972025213249,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 11,
-                    "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 4.259638690004042,
-                    "setup_time": 0.4573814875549044,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 11,
-                    "op_id": 5,
-                    "machine": 7,
-                    "processing_time": 8.650136378330025,
-                    "setup_time": 2.787214775860113,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 11,
-                    "op_id": 6,
-                    "machine": 4,
-                    "processing_time": 9.818042702286686,
-                    "setup_time": 1.2852829712775948,
+                    "machine": 0,
+                    "processing_time": 7.33816198919247,
+                    "setup_time": 1.862863171106636,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 4,
+            "arrival_time": 29,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 3,
             "machine_seq": [
-                6,
                 4,
                 1,
-                6,
-                7,
-                7,
-                4
+                5,
+                0
             ],
             "current_operation": 0
         },
@@ -651,35 +759,53 @@
                 {
                     "job_id": 12,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 11.409458829285358,
+                    "machine": 4,
+                    "processing_time": 11.220529928135914,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 12,
                     "op_id": 1,
-                    "machine": 3,
-                    "processing_time": 11.923510836455732,
-                    "setup_time": 0.3809905290923502,
+                    "machine": 6,
+                    "processing_time": 14.197133763164327,
+                    "setup_time": 2.604404336692724,
                     "status": "pending"
                 },
                 {
                     "job_id": 12,
                     "op_id": 2,
-                    "machine": 6,
-                    "processing_time": 18.237124479873575,
-                    "setup_time": 0.9981213414200432,
+                    "machine": 9,
+                    "processing_time": 5.457920741615473,
+                    "setup_time": 2.326391912431756,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 12,
+                    "op_id": 3,
+                    "machine": 1,
+                    "processing_time": 4.599074725222794,
+                    "setup_time": 1.4021083671670143,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 12,
+                    "op_id": 4,
+                    "machine": 0,
+                    "processing_time": 10.55374890094579,
+                    "setup_time": 0.7546440995715107,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 14,
+            "arrival_time": 21,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 5,
             "machine_seq": [
-                2,
-                3,
-                6
+                4,
+                6,
+                9,
+                1,
+                0
             ],
             "current_operation": 0
         },
@@ -689,62 +815,71 @@
                 {
                     "job_id": 13,
                     "op_id": 0,
-                    "machine": 3,
-                    "processing_time": 13.419936911749641,
+                    "machine": 8,
+                    "processing_time": 9.818341835484478,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 13,
                     "op_id": 1,
-                    "machine": 7,
-                    "processing_time": 18.323284688779772,
-                    "setup_time": 2.418954540806362,
+                    "machine": 3,
+                    "processing_time": 9.429637018944685,
+                    "setup_time": 2.161820948430736,
                     "status": "pending"
                 },
                 {
                     "job_id": 13,
                     "op_id": 2,
-                    "machine": 3,
-                    "processing_time": 8.7377911454081,
-                    "setup_time": 2.1656777132101004,
+                    "machine": 1,
+                    "processing_time": 15.713528459075718,
+                    "setup_time": 2.8288837363938084,
                     "status": "pending"
                 },
                 {
                     "job_id": 13,
                     "op_id": 3,
-                    "machine": 2,
-                    "processing_time": 14.540239518092314,
-                    "setup_time": 0.5261455254641971,
+                    "machine": 4,
+                    "processing_time": 12.064674663906198,
+                    "setup_time": 1.8752436701938495,
                     "status": "pending"
                 },
                 {
                     "job_id": 13,
                     "op_id": 4,
                     "machine": 9,
-                    "processing_time": 15.659892113007254,
-                    "setup_time": 0.33485539859662283,
+                    "processing_time": 16.04434953193859,
+                    "setup_time": 2.0081019432898937,
                     "status": "pending"
                 },
                 {
                     "job_id": 13,
                     "op_id": 5,
-                    "machine": 8,
-                    "processing_time": 17.556475868806345,
-                    "setup_time": 2.4314328513343293,
+                    "machine": 0,
+                    "processing_time": 9.46028474171435,
+                    "setup_time": 1.002853858809809,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 13,
+                    "op_id": 6,
+                    "machine": 0,
+                    "processing_time": 12.371698928027012,
+                    "setup_time": 1.175743204004879,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 0,
+            "arrival_time": 36,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 3,
             "machine_seq": [
+                8,
                 3,
-                7,
-                3,
-                2,
+                1,
+                4,
                 9,
-                8
+                0,
+                0
             ],
             "current_operation": 0
         },
@@ -754,53 +889,71 @@
                 {
                     "job_id": 14,
                     "op_id": 0,
-                    "machine": 0,
-                    "processing_time": 9.69187579727381,
+                    "machine": 2,
+                    "processing_time": 11.635483527497803,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 14,
                     "op_id": 1,
-                    "machine": 5,
-                    "processing_time": 15.547602472270132,
-                    "setup_time": 1.065833319292949,
+                    "machine": 3,
+                    "processing_time": 11.159140040272089,
+                    "setup_time": 2.731602835082835,
                     "status": "pending"
                 },
                 {
                     "job_id": 14,
                     "op_id": 2,
-                    "machine": 6,
-                    "processing_time": 7.749540909551437,
-                    "setup_time": 1.316281192460674,
+                    "machine": 9,
+                    "processing_time": 16.202181949334584,
+                    "setup_time": 2.196945759714776,
                     "status": "pending"
                 },
                 {
                     "job_id": 14,
                     "op_id": 3,
-                    "machine": 0,
-                    "processing_time": 12.796488018274848,
-                    "setup_time": 0.4285579172377355,
+                    "machine": 6,
+                    "processing_time": 16.24492558466409,
+                    "setup_time": 0.47489448492000996,
                     "status": "pending"
                 },
                 {
                     "job_id": 14,
                     "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 8.290434683571426,
-                    "setup_time": 0.8013988608948831,
+                    "machine": 1,
+                    "processing_time": 4.616881204776545,
+                    "setup_time": 2.6793121525280297,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 14,
+                    "op_id": 5,
+                    "machine": 2,
+                    "processing_time": 11.26501274887026,
+                    "setup_time": 2.1569322351302125,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 14,
+                    "op_id": 6,
+                    "machine": 5,
+                    "processing_time": 8.460479279723844,
+                    "setup_time": 1.8268581218087396,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 23,
+            "arrival_time": 30,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 3,
             "machine_seq": [
-                0,
-                5,
+                2,
+                3,
+                9,
                 6,
-                0,
-                7
+                1,
+                2,
+                5
             ],
             "current_operation": 0
         },
@@ -810,80 +963,35 @@
                 {
                     "job_id": 15,
                     "op_id": 0,
-                    "machine": 3,
-                    "processing_time": 9.160310670050489,
+                    "machine": 0,
+                    "processing_time": 12.986866743906283,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 15,
                     "op_id": 1,
-                    "machine": 5,
-                    "processing_time": 14.139963584503315,
-                    "setup_time": 0.4177156485073852,
+                    "machine": 6,
+                    "processing_time": 12.087858649249847,
+                    "setup_time": 2.33440579690168,
                     "status": "pending"
                 },
                 {
                     "job_id": 15,
                     "op_id": 2,
-                    "machine": 3,
-                    "processing_time": 6.009642438780356,
-                    "setup_time": 0.8301848751495924,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 15,
-                    "op_id": 3,
-                    "machine": 0,
-                    "processing_time": 11.472187157779201,
-                    "setup_time": 2.7215617338656264,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 15,
-                    "op_id": 4,
-                    "machine": 8,
-                    "processing_time": 11.360044787824028,
-                    "setup_time": 1.5014753620357393,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 15,
-                    "op_id": 5,
-                    "machine": 1,
-                    "processing_time": 7.040374894837905,
-                    "setup_time": 0.19450357648987016,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 15,
-                    "op_id": 6,
-                    "machine": 6,
-                    "processing_time": 13.228904628688095,
-                    "setup_time": 2.2999221385800976,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 15,
-                    "op_id": 7,
-                    "machine": 4,
-                    "processing_time": 13.810042362508291,
-                    "setup_time": 1.5377938568954965,
+                    "machine": 9,
+                    "processing_time": 12.45450470577465,
+                    "setup_time": 0.9824202477730776,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 50,
+            "arrival_time": 10,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 5,
             "machine_seq": [
-                3,
-                5,
-                3,
                 0,
-                8,
-                1,
                 6,
-                4
+                9
             ],
             "current_operation": 0
         },
@@ -893,62 +1001,80 @@
                 {
                     "job_id": 16,
                     "op_id": 0,
-                    "machine": 8,
-                    "processing_time": 7.565662609499477,
+                    "machine": 3,
+                    "processing_time": 8.2664714038816,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 16,
                     "op_id": 1,
-                    "machine": 9,
-                    "processing_time": 9.167611951954049,
-                    "setup_time": 0.07906177262464509,
+                    "machine": 8,
+                    "processing_time": 10.720617853945766,
+                    "setup_time": 1.9259459390598668,
                     "status": "pending"
                 },
                 {
                     "job_id": 16,
                     "op_id": 2,
-                    "machine": 3,
-                    "processing_time": 13.7077551158418,
-                    "setup_time": 0.8048730842526327,
+                    "machine": 6,
+                    "processing_time": 7.436304932983693,
+                    "setup_time": 0.6607172244691778,
                     "status": "pending"
                 },
                 {
                     "job_id": 16,
                     "op_id": 3,
                     "machine": 6,
-                    "processing_time": 14.302119872309536,
-                    "setup_time": 2.6218806477294248,
+                    "processing_time": 11.20372847437565,
+                    "setup_time": 0.04544101435330061,
                     "status": "pending"
                 },
                 {
                     "job_id": 16,
                     "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 6.482473893812216,
-                    "setup_time": 1.5107039381397318,
+                    "machine": 0,
+                    "processing_time": 10.478525654963558,
+                    "setup_time": 0.8472023096725049,
                     "status": "pending"
                 },
                 {
                     "job_id": 16,
                     "op_id": 5,
+                    "machine": 1,
+                    "processing_time": 8.502976317002128,
+                    "setup_time": 2.044461006827614,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 16,
+                    "op_id": 6,
                     "machine": 8,
-                    "processing_time": 7.475883016515913,
-                    "setup_time": 0.3913074226571198,
+                    "processing_time": 16.779971553616836,
+                    "setup_time": 1.9630764568037777,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 16,
+                    "op_id": 7,
+                    "machine": 6,
+                    "processing_time": 9.526914324759108,
+                    "setup_time": 0.28487920604393324,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 29,
+            "arrival_time": 9,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 4,
             "machine_seq": [
-                8,
-                9,
                 3,
+                8,
                 6,
-                7,
-                8
+                6,
+                0,
+                1,
+                8,
+                6
             ],
             "current_operation": 0
         },
@@ -959,79 +1085,34 @@
                     "job_id": 17,
                     "op_id": 0,
                     "machine": 1,
-                    "processing_time": 14.029060114728455,
+                    "processing_time": 11.156895865308448,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 17,
                     "op_id": 1,
-                    "machine": 6,
-                    "processing_time": 7.692728489245709,
-                    "setup_time": 2.0269588832627172,
+                    "machine": 4,
+                    "processing_time": 9.634098722790675,
+                    "setup_time": 0.732487218919469,
                     "status": "pending"
                 },
                 {
                     "job_id": 17,
                     "op_id": 2,
-                    "machine": 0,
-                    "processing_time": 5.4280542859657555,
-                    "setup_time": 2.146323894442274,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 17,
-                    "op_id": 3,
-                    "machine": 4,
-                    "processing_time": 14.12190728650962,
-                    "setup_time": 2.0642064286788537,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 17,
-                    "op_id": 4,
-                    "machine": 6,
-                    "processing_time": 10.50116358394362,
-                    "setup_time": 1.5821826649138093,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 17,
-                    "op_id": 5,
-                    "machine": 7,
-                    "processing_time": 12.897011675970703,
-                    "setup_time": 1.5588154072011484,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 17,
-                    "op_id": 6,
-                    "machine": 4,
-                    "processing_time": 8.760667800805173,
-                    "setup_time": 1.6309603221914717,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 17,
-                    "op_id": 7,
-                    "machine": 0,
-                    "processing_time": 4.352547389091882,
-                    "setup_time": 0.9952056877680089,
+                    "machine": 9,
+                    "processing_time": 12.70160887672849,
+                    "setup_time": 2.924459490010941,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 47,
+            "arrival_time": 10,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 5,
             "machine_seq": [
                 1,
-                6,
-                0,
                 4,
-                6,
-                7,
-                4,
-                0
+                9
             ],
             "current_operation": 0
         },
@@ -1041,35 +1122,53 @@
                 {
                     "job_id": 18,
                     "op_id": 0,
-                    "machine": 0,
-                    "processing_time": 15.136149469373496,
+                    "machine": 3,
+                    "processing_time": 7.315778099590287,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 18,
                     "op_id": 1,
-                    "machine": 1,
-                    "processing_time": 10.322822960310221,
-                    "setup_time": 0.9087450991021303,
+                    "machine": 2,
+                    "processing_time": 10.931522382571687,
+                    "setup_time": 0.040749909753045266,
                     "status": "pending"
                 },
                 {
                     "job_id": 18,
                     "op_id": 2,
-                    "machine": 4,
-                    "processing_time": 14.330415094726694,
-                    "setup_time": 0.8916284194183733,
+                    "machine": 9,
+                    "processing_time": 15.515556674243916,
+                    "setup_time": 2.1354268338702265,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 18,
+                    "op_id": 3,
+                    "machine": 5,
+                    "processing_time": 4.559216665011503,
+                    "setup_time": 1.7849991369825264,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 18,
+                    "op_id": 4,
+                    "machine": 0,
+                    "processing_time": 4.869736259206736,
+                    "setup_time": 2.7241604812317965,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 8,
+            "arrival_time": 20,
             "completed_operations": 0,
-            "priority": 1,
+            "priority": 2,
             "machine_seq": [
-                0,
-                1,
-                4
+                3,
+                2,
+                9,
+                5,
+                0
             ],
             "current_operation": 0
         },
@@ -1079,80 +1178,35 @@
                 {
                     "job_id": 19,
                     "op_id": 0,
-                    "machine": 5,
-                    "processing_time": 18.865831472869395,
+                    "machine": 9,
+                    "processing_time": 11.443112502869905,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 19,
                     "op_id": 1,
-                    "machine": 0,
-                    "processing_time": 11.82322393487442,
-                    "setup_time": 1.9591480080089991,
+                    "machine": 5,
+                    "processing_time": 3.7813799785610103,
+                    "setup_time": 1.657190733200978,
                     "status": "pending"
                 },
                 {
                     "job_id": 19,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 12.251692757286648,
-                    "setup_time": 2.25188912013922,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 19,
-                    "op_id": 3,
-                    "machine": 3,
-                    "processing_time": 4.240283190511365,
-                    "setup_time": 1.3762124016307407,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 19,
-                    "op_id": 4,
-                    "machine": 6,
-                    "processing_time": 9.45722003233269,
-                    "setup_time": 2.953363691547,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 19,
-                    "op_id": 5,
-                    "machine": 4,
-                    "processing_time": 7.882650892329683,
-                    "setup_time": 2.157720575315071,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 19,
-                    "op_id": 6,
-                    "machine": 9,
-                    "processing_time": 5.907482892327512,
-                    "setup_time": 2.3994335782828617,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 19,
-                    "op_id": 7,
-                    "machine": 0,
-                    "processing_time": 12.648397969618014,
-                    "setup_time": 1.534993901465525,
+                    "machine": 7,
+                    "processing_time": 15.313266743422403,
+                    "setup_time": 2.4113096390408826,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 43,
+            "arrival_time": 8,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 1,
             "machine_seq": [
-                5,
-                0,
-                1,
-                3,
-                6,
-                4,
                 9,
-                0
+                5,
+                7
             ],
             "current_operation": 0
         },
@@ -1162,80 +1216,44 @@
                 {
                     "job_id": 20,
                     "op_id": 0,
-                    "machine": 8,
-                    "processing_time": 7.653441461766935,
+                    "machine": 1,
+                    "processing_time": 8.955830609516527,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 20,
                     "op_id": 1,
-                    "machine": 0,
-                    "processing_time": 5.701704042754152,
-                    "setup_time": 0.371638014366923,
+                    "machine": 6,
+                    "processing_time": 14.697966850645624,
+                    "setup_time": 1.0594656654882049,
                     "status": "pending"
                 },
                 {
                     "job_id": 20,
                     "op_id": 2,
-                    "machine": 9,
-                    "processing_time": 10.140350143315427,
-                    "setup_time": 0.7764598068928665,
+                    "machine": 2,
+                    "processing_time": 9.223261339248989,
+                    "setup_time": 1.8596953607147833,
                     "status": "pending"
                 },
                 {
                     "job_id": 20,
                     "op_id": 3,
-                    "machine": 4,
-                    "processing_time": 16.38881007030339,
-                    "setup_time": 2.3898793121625763,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 20,
-                    "op_id": 4,
-                    "machine": 8,
-                    "processing_time": 11.411002162197583,
-                    "setup_time": 2.8512082780254904,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 20,
-                    "op_id": 5,
-                    "machine": 6,
-                    "processing_time": 17.067418182035404,
-                    "setup_time": 1.536554249806167,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 20,
-                    "op_id": 6,
-                    "machine": 7,
-                    "processing_time": 6.575215877194196,
-                    "setup_time": 2.514227456425486,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 20,
-                    "op_id": 7,
-                    "machine": 7,
-                    "processing_time": 9.025078856014016,
-                    "setup_time": 2.294539977508753,
+                    "machine": 5,
+                    "processing_time": 14.482879141521405,
+                    "setup_time": 2.801060327323124,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 34,
+            "arrival_time": 25,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 1,
             "machine_seq": [
-                8,
-                0,
-                9,
-                4,
-                8,
+                1,
                 6,
-                7,
-                7
+                2,
+                5
             ],
             "current_operation": 0
         },
@@ -1245,71 +1263,53 @@
                 {
                     "job_id": 21,
                     "op_id": 0,
-                    "machine": 9,
-                    "processing_time": 17.05936149415929,
+                    "machine": 4,
+                    "processing_time": 11.842699078455045,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 21,
                     "op_id": 1,
-                    "machine": 6,
-                    "processing_time": 10.731679501542072,
-                    "setup_time": 0.8923753633672245,
+                    "machine": 1,
+                    "processing_time": 5.500530866852222,
+                    "setup_time": 1.510310302577886,
                     "status": "pending"
                 },
                 {
                     "job_id": 21,
                     "op_id": 2,
-                    "machine": 6,
-                    "processing_time": 7.217525808172226,
-                    "setup_time": 1.5228511816751849,
+                    "machine": 5,
+                    "processing_time": 10.877491467318844,
+                    "setup_time": 0.03181039529623764,
                     "status": "pending"
                 },
                 {
                     "job_id": 21,
                     "op_id": 3,
-                    "machine": 3,
-                    "processing_time": 9.338107074786146,
-                    "setup_time": 2.138575413031288,
+                    "machine": 0,
+                    "processing_time": 11.607655169985264,
+                    "setup_time": 2.8157306261049815,
                     "status": "pending"
                 },
                 {
                     "job_id": 21,
                     "op_id": 4,
-                    "machine": 1,
-                    "processing_time": 14.659602407819541,
-                    "setup_time": 0.5913231026862625,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 21,
-                    "op_id": 5,
-                    "machine": 8,
-                    "processing_time": 4.450142114801718,
-                    "setup_time": 0.17377158365880674,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 21,
-                    "op_id": 6,
-                    "machine": 3,
-                    "processing_time": 14.792435015314508,
-                    "setup_time": 0.9684707355972672,
+                    "machine": 4,
+                    "processing_time": 14.038848087973465,
+                    "setup_time": 1.6717551834754891,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 40,
+            "arrival_time": 35,
             "completed_operations": 0,
             "priority": 4,
             "machine_seq": [
-                9,
-                6,
-                6,
-                3,
+                4,
                 1,
-                8,
-                3
+                5,
+                0,
+                4
             ],
             "current_operation": 0
         },
@@ -1319,53 +1319,80 @@
                 {
                     "job_id": 22,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 17.53490967371789,
+                    "machine": 6,
+                    "processing_time": 13.761734925938237,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 22,
                     "op_id": 1,
-                    "machine": 8,
-                    "processing_time": 7.213775197355055,
-                    "setup_time": 2.589545071193144,
+                    "machine": 3,
+                    "processing_time": 2.875271949117873,
+                    "setup_time": 1.5791991309312996,
                     "status": "pending"
                 },
                 {
                     "job_id": 22,
                     "op_id": 2,
                     "machine": 3,
-                    "processing_time": 13.644402418793874,
-                    "setup_time": 1.5719793310738779,
+                    "processing_time": 13.569527930593912,
+                    "setup_time": 2.988015146050248,
                     "status": "pending"
                 },
                 {
                     "job_id": 22,
                     "op_id": 3,
-                    "machine": 9,
-                    "processing_time": 9.326205607007237,
-                    "setup_time": 2.445147114291464,
+                    "machine": 0,
+                    "processing_time": 3.837429199487353,
+                    "setup_time": 2.5805305637733333,
                     "status": "pending"
                 },
                 {
                     "job_id": 22,
                     "op_id": 4,
-                    "machine": 5,
-                    "processing_time": 8.198984823722675,
-                    "setup_time": 1.599021761569158,
+                    "machine": 9,
+                    "processing_time": 17.408203594229153,
+                    "setup_time": 1.5168693408589031,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 22,
+                    "op_id": 5,
+                    "machine": 0,
+                    "processing_time": 4.4566212246705295,
+                    "setup_time": 2.2394005767469425,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 22,
+                    "op_id": 6,
+                    "machine": 8,
+                    "processing_time": 12.244328785903228,
+                    "setup_time": 1.3983192502757686,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 22,
+                    "op_id": 7,
+                    "machine": 2,
+                    "processing_time": 7.608858182509735,
+                    "setup_time": 0.5205088935960416,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 2,
+            "arrival_time": 17,
             "completed_operations": 0,
-            "priority": 2,
+            "priority": 3,
             "machine_seq": [
-                2,
-                8,
+                6,
                 3,
+                3,
+                0,
                 9,
-                5
+                0,
+                8,
+                2
             ],
             "current_operation": 0
         },
@@ -1375,62 +1402,62 @@
                 {
                     "job_id": 23,
                     "op_id": 0,
-                    "machine": 6,
-                    "processing_time": 13.533730880529241,
+                    "machine": 4,
+                    "processing_time": 10.618073564018866,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 23,
                     "op_id": 1,
-                    "machine": 5,
-                    "processing_time": 16.19714718637765,
-                    "setup_time": 0.9487427798443154,
+                    "machine": 6,
+                    "processing_time": 10.205655235514069,
+                    "setup_time": 2.6422355548561325,
                     "status": "pending"
                 },
                 {
                     "job_id": 23,
                     "op_id": 2,
-                    "machine": 7,
-                    "processing_time": 6.236385574718675,
-                    "setup_time": 1.204220579741527,
+                    "machine": 3,
+                    "processing_time": 11.576413804056187,
+                    "setup_time": 0.8873416572049574,
                     "status": "pending"
                 },
                 {
                     "job_id": 23,
                     "op_id": 3,
-                    "machine": 3,
-                    "processing_time": 7.385795077645868,
-                    "setup_time": 2.3295208752356515,
+                    "machine": 5,
+                    "processing_time": 11.872680535754036,
+                    "setup_time": 2.3369943822121426,
                     "status": "pending"
                 },
                 {
                     "job_id": 23,
                     "op_id": 4,
-                    "machine": 7,
-                    "processing_time": 13.775660730722475,
-                    "setup_time": 2.5565575107298155,
+                    "machine": 5,
+                    "processing_time": 17.786142374881695,
+                    "setup_time": 1.7182117207779872,
                     "status": "pending"
                 },
                 {
                     "job_id": 23,
                     "op_id": 5,
-                    "machine": 2,
-                    "processing_time": 11.317778671528863,
-                    "setup_time": 1.5134349852595754,
+                    "machine": 9,
+                    "processing_time": 16.07522036570336,
+                    "setup_time": 1.6355074811220636,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 7,
+            "arrival_time": 29,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 1,
             "machine_seq": [
+                4,
                 6,
-                5,
-                7,
                 3,
-                7,
-                2
+                5,
+                5,
+                9
             ],
             "current_operation": 0
         },
@@ -1440,53 +1467,53 @@
                 {
                     "job_id": 24,
                     "op_id": 0,
-                    "machine": 5,
-                    "processing_time": 11.549093281673521,
+                    "machine": 8,
+                    "processing_time": 9.28756999123904,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 24,
                     "op_id": 1,
-                    "machine": 9,
-                    "processing_time": 6.2171243701184755,
-                    "setup_time": 1.3173878835287676,
+                    "machine": 6,
+                    "processing_time": 14.838336442590794,
+                    "setup_time": 0.36682108776790845,
                     "status": "pending"
                 },
                 {
                     "job_id": 24,
                     "op_id": 2,
                     "machine": 9,
-                    "processing_time": 11.317732548128307,
-                    "setup_time": 0.3863949471770377,
+                    "processing_time": 5.964379258645705,
+                    "setup_time": 2.463056279877165,
                     "status": "pending"
                 },
                 {
                     "job_id": 24,
                     "op_id": 3,
-                    "machine": 3,
-                    "processing_time": 9.759716257827783,
-                    "setup_time": 0.36797490967923574,
+                    "machine": 2,
+                    "processing_time": 15.514668776724843,
+                    "setup_time": 0.7780620498747752,
                     "status": "pending"
                 },
                 {
                     "job_id": 24,
                     "op_id": 4,
-                    "machine": 9,
-                    "processing_time": 3.9967683738458626,
-                    "setup_time": 1.3773192095600746,
+                    "machine": 5,
+                    "processing_time": 14.582688216739903,
+                    "setup_time": 1.7667575805376785,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 2,
+            "arrival_time": 16,
             "completed_operations": 0,
-            "priority": 4,
+            "priority": 5,
             "machine_seq": [
-                5,
+                8,
+                6,
                 9,
-                9,
-                3,
-                9
+                2,
+                5
             ],
             "current_operation": 0
         },
@@ -1496,44 +1523,62 @@
                 {
                     "job_id": 25,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 13.701393395304247,
+                    "machine": 1,
+                    "processing_time": 8.392689951733718,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 25,
                     "op_id": 1,
-                    "machine": 2,
-                    "processing_time": 17.929427943022773,
-                    "setup_time": 1.4908562923771134,
+                    "machine": 3,
+                    "processing_time": 5.933584763420832,
+                    "setup_time": 2.681339107610305,
                     "status": "pending"
                 },
                 {
                     "job_id": 25,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 9.772328247682013,
-                    "setup_time": 1.7473697947683415,
+                    "machine": 6,
+                    "processing_time": 16.773517410103775,
+                    "setup_time": 1.1982719309164183,
                     "status": "pending"
                 },
                 {
                     "job_id": 25,
                     "op_id": 3,
-                    "machine": 9,
-                    "processing_time": 15.759880155260298,
-                    "setup_time": 2.879724107671438,
+                    "machine": 0,
+                    "processing_time": 6.930015378219386,
+                    "setup_time": 1.5403143533082337,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 25,
+                    "op_id": 4,
+                    "machine": 8,
+                    "processing_time": 9.180853329580366,
+                    "setup_time": 0.31338701625097254,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 25,
+                    "op_id": 5,
+                    "machine": 4,
+                    "processing_time": 14.58541018849926,
+                    "setup_time": 0.8421731937656599,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 6,
+            "arrival_time": 47,
             "completed_operations": 0,
-            "priority": 2,
+            "priority": 3,
             "machine_seq": [
-                2,
-                2,
+                1,
+                3,
+                6,
+                0,
                 8,
-                9
+                4
             ],
             "current_operation": 0
         },
@@ -1543,35 +1588,62 @@
                 {
                     "job_id": 26,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 4.876730390663848,
+                    "machine": 7,
+                    "processing_time": 10.504952336784458,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 26,
                     "op_id": 1,
-                    "machine": 8,
-                    "processing_time": 5.9473923343048,
-                    "setup_time": 1.6394768968373463,
+                    "machine": 4,
+                    "processing_time": 15.451819191024116,
+                    "setup_time": 0.00753394200785118,
                     "status": "pending"
                 },
                 {
                     "job_id": 26,
                     "op_id": 2,
-                    "machine": 7,
-                    "processing_time": 15.613174667544968,
-                    "setup_time": 1.039096306547226,
+                    "machine": 6,
+                    "processing_time": 13.257588122063424,
+                    "setup_time": 0.9927274052142405,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 26,
+                    "op_id": 3,
+                    "machine": 6,
+                    "processing_time": 14.316809241276903,
+                    "setup_time": 1.4214421707427354,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 26,
+                    "op_id": 4,
+                    "machine": 2,
+                    "processing_time": 8.02587485694928,
+                    "setup_time": 2.858664741806199,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 26,
+                    "op_id": 5,
+                    "machine": 3,
+                    "processing_time": 7.503150381829486,
+                    "setup_time": 0.192156282602581,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 1,
+            "arrival_time": 38,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 2,
             "machine_seq": [
+                7,
+                4,
+                6,
+                6,
                 2,
-                8,
-                7
+                3
             ],
             "current_operation": 0
         },
@@ -1581,80 +1653,53 @@
                 {
                     "job_id": 27,
                     "op_id": 0,
-                    "machine": 1,
-                    "processing_time": 11.212344592394592,
+                    "machine": 7,
+                    "processing_time": 13.333747263420676,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 27,
                     "op_id": 1,
-                    "machine": 2,
-                    "processing_time": 14.451826296005104,
-                    "setup_time": 1.7519931403363265,
+                    "machine": 0,
+                    "processing_time": 4.836337295897134,
+                    "setup_time": 2.5159005508819208,
                     "status": "pending"
                 },
                 {
                     "job_id": 27,
                     "op_id": 2,
-                    "machine": 5,
-                    "processing_time": 10.925800952624769,
-                    "setup_time": 1.4371925718545016,
+                    "machine": 8,
+                    "processing_time": 9.580332937275827,
+                    "setup_time": 0.3910376272602172,
                     "status": "pending"
                 },
                 {
                     "job_id": 27,
                     "op_id": 3,
-                    "machine": 6,
-                    "processing_time": 13.441614568872268,
-                    "setup_time": 2.3333771747035277,
+                    "machine": 0,
+                    "processing_time": 5.405984067091626,
+                    "setup_time": 2.043937694303638,
                     "status": "pending"
                 },
                 {
                     "job_id": 27,
                     "op_id": 4,
-                    "machine": 4,
-                    "processing_time": 10.574572414707786,
-                    "setup_time": 0.10467772893212424,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 27,
-                    "op_id": 5,
-                    "machine": 1,
-                    "processing_time": 8.25838322611579,
-                    "setup_time": 1.6950019135499668,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 27,
-                    "op_id": 6,
-                    "machine": 5,
-                    "processing_time": 6.846923208487984,
-                    "setup_time": 1.2143372175738696,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 27,
-                    "op_id": 7,
-                    "machine": 5,
-                    "processing_time": 7.582222763797429,
-                    "setup_time": 0.007768618319199505,
+                    "machine": 3,
+                    "processing_time": 7.266442731731528,
+                    "setup_time": 1.3405468298382068,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 6,
+            "arrival_time": 38,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 5,
             "machine_seq": [
-                1,
-                2,
-                5,
-                6,
-                4,
-                1,
-                5,
-                5
+                7,
+                0,
+                8,
+                0,
+                3
             ],
             "current_operation": 0
         },
@@ -1664,44 +1709,71 @@
                 {
                     "job_id": 28,
                     "op_id": 0,
-                    "machine": 8,
-                    "processing_time": 5.74340186662214,
+                    "machine": 2,
+                    "processing_time": 10.140982784480954,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 28,
                     "op_id": 1,
-                    "machine": 3,
-                    "processing_time": 13.71879948620057,
-                    "setup_time": 1.088820779607933,
+                    "machine": 7,
+                    "processing_time": 11.442386912506777,
+                    "setup_time": 0.25411343057030056,
                     "status": "pending"
                 },
                 {
                     "job_id": 28,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 9.2087632653297,
-                    "setup_time": 0.9702797053171628,
+                    "machine": 4,
+                    "processing_time": 10.362260808961437,
+                    "setup_time": 2.612209254144257,
                     "status": "pending"
                 },
                 {
                     "job_id": 28,
                     "op_id": 3,
-                    "machine": 4,
-                    "processing_time": 11.105477253857835,
-                    "setup_time": 1.4432312978529147,
+                    "machine": 1,
+                    "processing_time": 8.936017711069155,
+                    "setup_time": 2.8883424753027795,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 28,
+                    "op_id": 4,
+                    "machine": 6,
+                    "processing_time": 7.908840015144699,
+                    "setup_time": 1.8219964620258275,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 28,
+                    "op_id": 5,
+                    "machine": 9,
+                    "processing_time": 6.699858740399703,
+                    "setup_time": 1.22940553473922,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 28,
+                    "op_id": 6,
+                    "machine": 2,
+                    "processing_time": 9.9792006019543,
+                    "setup_time": 1.6830713278681668,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 21,
+            "arrival_time": 14,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 3,
             "machine_seq": [
-                8,
-                3,
+                2,
+                7,
+                4,
                 1,
-                4
+                6,
+                9,
+                2
             ],
             "current_operation": 0
         },
@@ -1712,70 +1784,52 @@
                     "job_id": 29,
                     "op_id": 0,
                     "machine": 5,
-                    "processing_time": 16.004775476790947,
+                    "processing_time": 13.700710122860034,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 29,
                     "op_id": 1,
-                    "machine": 3,
-                    "processing_time": 14.579759625132239,
-                    "setup_time": 1.1695610253639934,
+                    "machine": 2,
+                    "processing_time": 13.143172669521935,
+                    "setup_time": 1.0593937718563264,
                     "status": "pending"
                 },
                 {
                     "job_id": 29,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 6.139194810452195,
-                    "setup_time": 1.9525620456347295,
+                    "machine": 0,
+                    "processing_time": 9.711410574198919,
+                    "setup_time": 1.2487863576327098,
                     "status": "pending"
                 },
                 {
                     "job_id": 29,
                     "op_id": 3,
                     "machine": 4,
-                    "processing_time": 7.283916662745653,
-                    "setup_time": 0.1814761090174244,
+                    "processing_time": 8.607738516343744,
+                    "setup_time": 1.1441329513787755,
                     "status": "pending"
                 },
                 {
                     "job_id": 29,
                     "op_id": 4,
-                    "machine": 0,
-                    "processing_time": 17.651319609271994,
-                    "setup_time": 1.3011556310893835,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 29,
-                    "op_id": 5,
-                    "machine": 3,
-                    "processing_time": 9.77022120692357,
-                    "setup_time": 0.20955383139407524,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 29,
-                    "op_id": 6,
-                    "machine": 2,
-                    "processing_time": 5.769166297316451,
-                    "setup_time": 2.0088198118064984,
+                    "machine": 7,
+                    "processing_time": 13.150254242587899,
+                    "setup_time": 2.6609890418478863,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 21,
+            "arrival_time": 16,
             "completed_operations": 0,
             "priority": 1,
             "machine_seq": [
                 5,
-                3,
-                8,
-                4,
+                2,
                 0,
-                3,
-                2
+                4,
+                7
             ],
             "current_operation": 0
         },
@@ -1785,8 +1839,8 @@
                 {
                     "job_id": 30,
                     "op_id": 0,
-                    "machine": 3,
-                    "processing_time": 12.350627961915489,
+                    "machine": 2,
+                    "processing_time": 10.45319155103135,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
@@ -1794,71 +1848,35 @@
                     "job_id": 30,
                     "op_id": 1,
                     "machine": 8,
-                    "processing_time": 9.444258265999867,
-                    "setup_time": 2.0417150520484024,
+                    "processing_time": 5.8383371647896976,
+                    "setup_time": 1.4000191624865026,
                     "status": "pending"
                 },
                 {
                     "job_id": 30,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 11.057214099629718,
-                    "setup_time": 2.1128283782605264,
+                    "machine": 7,
+                    "processing_time": 13.38911221683424,
+                    "setup_time": 2.4216980298367314,
                     "status": "pending"
                 },
                 {
                     "job_id": 30,
                     "op_id": 3,
-                    "machine": 2,
-                    "processing_time": 14.19612153802807,
-                    "setup_time": 1.8005331389642647,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 30,
-                    "op_id": 4,
-                    "machine": 3,
-                    "processing_time": 12.32926614694436,
-                    "setup_time": 2.0580888805193798,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 30,
-                    "op_id": 5,
-                    "machine": 9,
-                    "processing_time": 16.073961207379778,
-                    "setup_time": 2.077184213600254,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 30,
-                    "op_id": 6,
-                    "machine": 1,
-                    "processing_time": 9.651215460081385,
-                    "setup_time": 2.5843134487381874,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 30,
-                    "op_id": 7,
-                    "machine": 7,
-                    "processing_time": 11.349994119600597,
-                    "setup_time": 0.2283754774303256,
+                    "machine": 6,
+                    "processing_time": 14.61657602499597,
+                    "setup_time": 0.4593751153279947,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 30,
+            "arrival_time": 48,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 3,
             "machine_seq": [
-                3,
-                8,
-                1,
                 2,
-                3,
-                9,
-                1,
-                7
+                8,
+                7,
+                6
             ],
             "current_operation": 0
         },
@@ -1868,62 +1886,71 @@
                 {
                     "job_id": 31,
                     "op_id": 0,
-                    "machine": 2,
-                    "processing_time": 4.555748710416016,
+                    "machine": 7,
+                    "processing_time": 13.38157080568573,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 31,
                     "op_id": 1,
-                    "machine": 9,
-                    "processing_time": 4.324031472352673,
-                    "setup_time": 0.9936175939474944,
+                    "machine": 3,
+                    "processing_time": 8.177681610641415,
+                    "setup_time": 0.9420500336347402,
                     "status": "pending"
                 },
                 {
                     "job_id": 31,
                     "op_id": 2,
-                    "machine": 2,
-                    "processing_time": 14.619291125453902,
-                    "setup_time": 1.6692695076362605,
+                    "machine": 6,
+                    "processing_time": 14.93622509081088,
+                    "setup_time": 0.6603509605398765,
                     "status": "pending"
                 },
                 {
                     "job_id": 31,
                     "op_id": 3,
-                    "machine": 5,
-                    "processing_time": 12.07416488005114,
-                    "setup_time": 0.386609949029049,
+                    "machine": 8,
+                    "processing_time": 11.277828142271451,
+                    "setup_time": 1.3147036549214366,
                     "status": "pending"
                 },
                 {
                     "job_id": 31,
                     "op_id": 4,
-                    "machine": 6,
-                    "processing_time": 13.672296569356252,
-                    "setup_time": 1.5952221614334818,
+                    "machine": 8,
+                    "processing_time": 8.40505525644603,
+                    "setup_time": 2.2299680184502124,
                     "status": "pending"
                 },
                 {
                     "job_id": 31,
                     "op_id": 5,
-                    "machine": 3,
-                    "processing_time": 15.94803162767667,
-                    "setup_time": 2.944649932460984,
+                    "machine": 7,
+                    "processing_time": 11.341338671469034,
+                    "setup_time": 1.3175966678158428,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 31,
+                    "op_id": 6,
+                    "machine": 0,
+                    "processing_time": 7.286817019982815,
+                    "setup_time": 2.521207447479706,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 0,
+            "arrival_time": 17,
             "completed_operations": 0,
-            "priority": 3,
+            "priority": 2,
             "machine_seq": [
-                2,
-                9,
-                2,
-                5,
+                7,
+                3,
                 6,
-                3
+                8,
+                8,
+                7,
+                0
             ],
             "current_operation": 0
         },
@@ -1933,62 +1960,71 @@
                 {
                     "job_id": 32,
                     "op_id": 0,
-                    "machine": 3,
-                    "processing_time": 16.02335955779083,
+                    "machine": 2,
+                    "processing_time": 6.4654584880838115,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 32,
                     "op_id": 1,
-                    "machine": 2,
-                    "processing_time": 13.496578135249134,
-                    "setup_time": 2.426960799540613,
+                    "machine": 9,
+                    "processing_time": 6.655329600482533,
+                    "setup_time": 1.7410570272501296,
                     "status": "pending"
                 },
                 {
                     "job_id": 32,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 11.871815386060334,
-                    "setup_time": 0.4795142547463548,
+                    "machine": 3,
+                    "processing_time": 13.081115746131765,
+                    "setup_time": 1.4042657901850513,
                     "status": "pending"
                 },
                 {
                     "job_id": 32,
                     "op_id": 3,
-                    "machine": 2,
-                    "processing_time": 12.806070679775114,
-                    "setup_time": 2.3038633797114434,
+                    "machine": 3,
+                    "processing_time": 3.3462225332578894,
+                    "setup_time": 2.428826374911624,
                     "status": "pending"
                 },
                 {
                     "job_id": 32,
                     "op_id": 4,
-                    "machine": 2,
-                    "processing_time": 9.567918719009349,
-                    "setup_time": 0.9906198914160691,
+                    "machine": 5,
+                    "processing_time": 5.856721522414826,
+                    "setup_time": 0.57404407803414,
                     "status": "pending"
                 },
                 {
                     "job_id": 32,
                     "op_id": 5,
-                    "machine": 3,
-                    "processing_time": 10.550089011490401,
-                    "setup_time": 0.9133216591738151,
+                    "machine": 4,
+                    "processing_time": 10.161417606545715,
+                    "setup_time": 0.2864315500277824,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 32,
+                    "op_id": 6,
+                    "machine": 2,
+                    "processing_time": 12.601658381889894,
+                    "setup_time": 1.8235207885652334,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 18,
+            "arrival_time": 24,
             "completed_operations": 0,
-            "priority": 1,
+            "priority": 3,
             "machine_seq": [
+                2,
+                9,
                 3,
-                2,
-                1,
-                2,
-                2,
-                3
+                3,
+                5,
+                4,
+                2
             ],
             "current_operation": 0
         },
@@ -1998,35 +2034,53 @@
                 {
                     "job_id": 33,
                     "op_id": 0,
-                    "machine": 7,
-                    "processing_time": 17.263054391545694,
+                    "machine": 0,
+                    "processing_time": 12.284558144469631,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 33,
                     "op_id": 1,
-                    "machine": 1,
-                    "processing_time": 5.908284860089209,
-                    "setup_time": 0.035092767316099005,
+                    "machine": 5,
+                    "processing_time": 13.059551575019196,
+                    "setup_time": 2.7739596611920883,
                     "status": "pending"
                 },
                 {
                     "job_id": 33,
                     "op_id": 2,
-                    "machine": 1,
-                    "processing_time": 15.084613514164836,
-                    "setup_time": 2.3768790361457475,
+                    "machine": 4,
+                    "processing_time": 14.872873682475738,
+                    "setup_time": 0.469811133907328,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 33,
+                    "op_id": 3,
+                    "machine": 8,
+                    "processing_time": 8.368324581142586,
+                    "setup_time": 1.0988372340117576,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 33,
+                    "op_id": 4,
+                    "machine": 6,
+                    "processing_time": 10.803488772636705,
+                    "setup_time": 1.0654167733744595,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 42,
+            "arrival_time": 19,
             "completed_operations": 0,
-            "priority": 1,
+            "priority": 2,
             "machine_seq": [
-                7,
-                1,
-                1
+                0,
+                5,
+                4,
+                8,
+                6
             ],
             "current_operation": 0
         },
@@ -2036,80 +2090,62 @@
                 {
                     "job_id": 34,
                     "op_id": 0,
-                    "machine": 0,
-                    "processing_time": 11.355099959137968,
+                    "machine": 9,
+                    "processing_time": 14.89427048327877,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 34,
                     "op_id": 1,
-                    "machine": 1,
-                    "processing_time": 13.395970574799753,
-                    "setup_time": 2.872097196351373,
+                    "machine": 9,
+                    "processing_time": 10.50799889735466,
+                    "setup_time": 1.8211304042392031,
                     "status": "pending"
                 },
                 {
                     "job_id": 34,
                     "op_id": 2,
-                    "machine": 0,
-                    "processing_time": 9.466883086008972,
-                    "setup_time": 1.3518245084390912,
+                    "machine": 4,
+                    "processing_time": 10.26442984441416,
+                    "setup_time": 1.3916257618017336,
                     "status": "pending"
                 },
                 {
                     "job_id": 34,
                     "op_id": 3,
-                    "machine": 6,
-                    "processing_time": 14.313820522998773,
-                    "setup_time": 0.8721513166832716,
+                    "machine": 0,
+                    "processing_time": 13.653637662504,
+                    "setup_time": 0.775404151234485,
                     "status": "pending"
                 },
                 {
                     "job_id": 34,
                     "op_id": 4,
-                    "machine": 8,
-                    "processing_time": 6.614933531314029,
-                    "setup_time": 2.609165470899663,
+                    "machine": 6,
+                    "processing_time": 19.187007164564953,
+                    "setup_time": 2.6641237800073507,
                     "status": "pending"
                 },
                 {
                     "job_id": 34,
                     "op_id": 5,
-                    "machine": 7,
-                    "processing_time": 17.774411193603463,
-                    "setup_time": 2.37725548802198,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 34,
-                    "op_id": 6,
-                    "machine": 2,
-                    "processing_time": 13.822167034817594,
-                    "setup_time": 0.3211370564369589,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 34,
-                    "op_id": 7,
-                    "machine": 1,
-                    "processing_time": 6.328499584075907,
-                    "setup_time": 1.8251562657697422,
+                    "machine": 3,
+                    "processing_time": 4.6316936016862105,
+                    "setup_time": 2.315573557948464,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 32,
+            "arrival_time": 27,
             "completed_operations": 0,
-            "priority": 5,
+            "priority": 3,
             "machine_seq": [
-                0,
-                1,
+                9,
+                9,
+                4,
                 0,
                 6,
-                8,
-                7,
-                2,
-                1
+                3
             ],
             "current_operation": 0
         },
@@ -2119,35 +2155,80 @@
                 {
                     "job_id": 35,
                     "op_id": 0,
-                    "machine": 5,
-                    "processing_time": 12.689609647694157,
+                    "machine": 4,
+                    "processing_time": 11.594406731790011,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 35,
                     "op_id": 1,
-                    "machine": 5,
-                    "processing_time": 14.446345889369262,
-                    "setup_time": 1.6031392592121656,
+                    "machine": 3,
+                    "processing_time": 8.490835731818603,
+                    "setup_time": 1.0522350878821713,
                     "status": "pending"
                 },
                 {
                     "job_id": 35,
                     "op_id": 2,
-                    "machine": 4,
-                    "processing_time": 11.506154006636454,
-                    "setup_time": 2.1608555629193935,
+                    "machine": 0,
+                    "processing_time": 9.17032606927308,
+                    "setup_time": 2.522362993542518,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 35,
+                    "op_id": 3,
+                    "machine": 6,
+                    "processing_time": 7.974748508982677,
+                    "setup_time": 1.073578543436263,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 35,
+                    "op_id": 4,
+                    "machine": 2,
+                    "processing_time": 4.6202749743680736,
+                    "setup_time": 2.1650310216327924,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 35,
+                    "op_id": 5,
+                    "machine": 7,
+                    "processing_time": 10.97892711016831,
+                    "setup_time": 2.6307139248307183,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 35,
+                    "op_id": 6,
+                    "machine": 2,
+                    "processing_time": 6.434308902198921,
+                    "setup_time": 1.8138857521069927,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 35,
+                    "op_id": 7,
+                    "machine": 9,
+                    "processing_time": 8.308151129387728,
+                    "setup_time": 2.0381670454955456,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 37,
+            "arrival_time": 35,
             "completed_operations": 0,
-            "priority": 2,
+            "priority": 1,
             "machine_seq": [
-                5,
-                5,
-                4
+                4,
+                3,
+                0,
+                6,
+                2,
+                7,
+                2,
+                9
             ],
             "current_operation": 0
         },
@@ -2158,79 +2239,1074 @@
                     "job_id": 36,
                     "op_id": 0,
                     "machine": 5,
-                    "processing_time": 14.012542507413151,
+                    "processing_time": 13.609365038228823,
                     "setup_time": 0.0,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 1,
-                    "machine": 0,
-                    "processing_time": 11.135609204309583,
-                    "setup_time": 2.6474979374911984,
+                    "machine": 3,
+                    "processing_time": 14.16666235680114,
+                    "setup_time": 1.3999074398636895,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 2,
-                    "machine": 8,
-                    "processing_time": 11.800661020715443,
-                    "setup_time": 0.09109618041668799,
+                    "machine": 0,
+                    "processing_time": 9.469830883265933,
+                    "setup_time": 0.104378927599455,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 3,
-                    "machine": 7,
-                    "processing_time": 8.598380929794825,
-                    "setup_time": 1.1049154405190735,
+                    "machine": 6,
+                    "processing_time": 10.199141938632955,
+                    "setup_time": 0.0741450756701606,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 4,
-                    "machine": 3,
-                    "processing_time": 12.775430509195477,
-                    "setup_time": 0.1942780853150069,
+                    "machine": 1,
+                    "processing_time": 18.824470374842992,
+                    "setup_time": 2.229960838511977,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 5,
                     "machine": 3,
-                    "processing_time": 3.523266103928859,
-                    "setup_time": 0.45509187107022486,
+                    "processing_time": 12.74956952208776,
+                    "setup_time": 0.8432790814238821,
                     "status": "pending"
                 },
                 {
                     "job_id": 36,
                     "op_id": 6,
-                    "machine": 2,
-                    "processing_time": 14.55866484659998,
-                    "setup_time": 2.1284888373205004,
-                    "status": "pending"
-                },
-                {
-                    "job_id": 36,
-                    "op_id": 7,
-                    "machine": 6,
-                    "processing_time": 11.37316997247527,
-                    "setup_time": 0.5714291594840134,
+                    "machine": 3,
+                    "processing_time": 10.268526982384069,
+                    "setup_time": 1.5294087845434967,
                     "status": "pending"
                 }
             ],
-            "arrival_time": 8,
+            "arrival_time": 33,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                5,
+                3,
+                0,
+                6,
+                1,
+                3,
+                3
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 37,
+            "operations": [
+                {
+                    "job_id": 37,
+                    "op_id": 0,
+                    "machine": 1,
+                    "processing_time": 7.73989823496974,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 37,
+                    "op_id": 1,
+                    "machine": 1,
+                    "processing_time": 6.757843737046944,
+                    "setup_time": 0.5263786411968395,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 37,
+                    "op_id": 2,
+                    "machine": 5,
+                    "processing_time": 7.127849475021259,
+                    "setup_time": 0.42144482461772015,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 37,
+                    "op_id": 3,
+                    "machine": 8,
+                    "processing_time": 8.487112710266036,
+                    "setup_time": 1.1418866092444366,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 37,
+                    "op_id": 4,
+                    "machine": 5,
+                    "processing_time": 5.091530008874523,
+                    "setup_time": 2.459200761800319,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 37,
+                    "op_id": 5,
+                    "machine": 5,
+                    "processing_time": 6.464855032686999,
+                    "setup_time": 0.7359055098949755,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 5,
+            "completed_operations": 0,
+            "priority": 1,
+            "machine_seq": [
+                1,
+                1,
+                5,
+                8,
+                5,
+                5
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 38,
+            "operations": [
+                {
+                    "job_id": 38,
+                    "op_id": 0,
+                    "machine": 9,
+                    "processing_time": 9.783213895223854,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 38,
+                    "op_id": 1,
+                    "machine": 2,
+                    "processing_time": 12.128185685432861,
+                    "setup_time": 2.2434083266594,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 38,
+                    "op_id": 2,
+                    "machine": 7,
+                    "processing_time": 4.937794515617247,
+                    "setup_time": 1.5597397648323077,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 38,
+                    "op_id": 3,
+                    "machine": 9,
+                    "processing_time": 11.010014806116272,
+                    "setup_time": 0.8510173852264237,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 38,
+                    "op_id": 4,
+                    "machine": 4,
+                    "processing_time": 14.153654304513331,
+                    "setup_time": 2.8812543071386814,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 50,
+            "completed_operations": 0,
+            "priority": 1,
+            "machine_seq": [
+                9,
+                2,
+                7,
+                9,
+                4
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 39,
+            "operations": [
+                {
+                    "job_id": 39,
+                    "op_id": 0,
+                    "machine": 4,
+                    "processing_time": 14.510034573743415,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 39,
+                    "op_id": 1,
+                    "machine": 3,
+                    "processing_time": 14.124380322294762,
+                    "setup_time": 0.7387085487448779,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 39,
+                    "op_id": 2,
+                    "machine": 5,
+                    "processing_time": 5.808350450833116,
+                    "setup_time": 1.1879925595002307,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 32,
+            "completed_operations": 0,
+            "priority": 3,
+            "machine_seq": [
+                4,
+                3,
+                5
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 40,
+            "operations": [
+                {
+                    "job_id": 40,
+                    "op_id": 0,
+                    "machine": 9,
+                    "processing_time": 16.22553410363783,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 40,
+                    "op_id": 1,
+                    "machine": 3,
+                    "processing_time": 8.500241053958772,
+                    "setup_time": 1.0576841710031915,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 40,
+                    "op_id": 2,
+                    "machine": 5,
+                    "processing_time": 5.2948697535808655,
+                    "setup_time": 2.0077660785756057,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 40,
+                    "op_id": 3,
+                    "machine": 9,
+                    "processing_time": 8.069104370510662,
+                    "setup_time": 1.0164567805433506,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 50,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                9,
+                3,
+                5,
+                9
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 41,
+            "operations": [
+                {
+                    "job_id": 41,
+                    "op_id": 0,
+                    "machine": 8,
+                    "processing_time": 5.368740066930863,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 41,
+                    "op_id": 1,
+                    "machine": 8,
+                    "processing_time": 10.155814346234253,
+                    "setup_time": 1.2404319848259342,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 41,
+                    "op_id": 2,
+                    "machine": 5,
+                    "processing_time": 11.800604123583216,
+                    "setup_time": 1.4524789035049155,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 45,
+            "completed_operations": 0,
+            "priority": 4,
+            "machine_seq": [
+                8,
+                8,
+                5
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 42,
+            "operations": [
+                {
+                    "job_id": 42,
+                    "op_id": 0,
+                    "machine": 9,
+                    "processing_time": 15.632108236132218,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 42,
+                    "op_id": 1,
+                    "machine": 7,
+                    "processing_time": 10.370874876486107,
+                    "setup_time": 0.4018689559661788,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 42,
+                    "op_id": 2,
+                    "machine": 3,
+                    "processing_time": 2.7394010038847703,
+                    "setup_time": 0.6309357516811377,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 42,
+                    "op_id": 3,
+                    "machine": 8,
+                    "processing_time": 6.338687485756092,
+                    "setup_time": 1.63421866545265,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 42,
+                    "op_id": 4,
+                    "machine": 3,
+                    "processing_time": 4.821423203350997,
+                    "setup_time": 1.257577193049467,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 42,
+                    "op_id": 5,
+                    "machine": 9,
+                    "processing_time": 15.58265894662981,
+                    "setup_time": 1.8302111802180676,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 32,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                9,
+                7,
+                3,
+                8,
+                3,
+                9
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 43,
+            "operations": [
+                {
+                    "job_id": 43,
+                    "op_id": 0,
+                    "machine": 2,
+                    "processing_time": 8.120184019314072,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 1,
+                    "machine": 8,
+                    "processing_time": 11.067479571557902,
+                    "setup_time": 0.43303048488607476,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 2,
+                    "machine": 4,
+                    "processing_time": 16.72605304624363,
+                    "setup_time": 0.9387247870442683,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 3,
+                    "machine": 4,
+                    "processing_time": 16.59935939121193,
+                    "setup_time": 1.166085832073794,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 4,
+                    "machine": 0,
+                    "processing_time": 9.927772052726317,
+                    "setup_time": 2.744095180246653,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 5,
+                    "machine": 2,
+                    "processing_time": 12.732121048935387,
+                    "setup_time": 0.061040140614968874,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 6,
+                    "machine": 5,
+                    "processing_time": 5.496778877172608,
+                    "setup_time": 0.780744807907981,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 43,
+                    "op_id": 7,
+                    "machine": 9,
+                    "processing_time": 4.5452136992422325,
+                    "setup_time": 1.2182281665321104,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 17,
+            "completed_operations": 0,
+            "priority": 3,
+            "machine_seq": [
+                2,
+                8,
+                4,
+                4,
+                0,
+                2,
+                5,
+                9
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 44,
+            "operations": [
+                {
+                    "job_id": 44,
+                    "op_id": 0,
+                    "machine": 8,
+                    "processing_time": 6.943602844822955,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 44,
+                    "op_id": 1,
+                    "machine": 5,
+                    "processing_time": 11.273099847420864,
+                    "setup_time": 2.6796076530777384,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 44,
+                    "op_id": 2,
+                    "machine": 0,
+                    "processing_time": 13.197339369277522,
+                    "setup_time": 2.680171487475687,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 44,
+                    "op_id": 3,
+                    "machine": 7,
+                    "processing_time": 4.580583290732492,
+                    "setup_time": 2.378994036092993,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 44,
+                    "op_id": 4,
+                    "machine": 0,
+                    "processing_time": 11.825518286896218,
+                    "setup_time": 0.3037590631356861,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 44,
+                    "op_id": 5,
+                    "machine": 4,
+                    "processing_time": 9.834996358989123,
+                    "setup_time": 1.6132907032068202,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 17,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                8,
+                5,
+                0,
+                7,
+                0,
+                4
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 45,
+            "operations": [
+                {
+                    "job_id": 45,
+                    "op_id": 0,
+                    "machine": 2,
+                    "processing_time": 6.060501126909381,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 45,
+                    "op_id": 1,
+                    "machine": 5,
+                    "processing_time": 12.067596830159557,
+                    "setup_time": 1.2561055587719228,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 45,
+                    "op_id": 2,
+                    "machine": 5,
+                    "processing_time": 17.88146714124119,
+                    "setup_time": 0.44293272189738286,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 45,
+                    "op_id": 3,
+                    "machine": 4,
+                    "processing_time": 11.669078354198268,
+                    "setup_time": 0.2887946302544463,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 45,
+                    "op_id": 4,
+                    "machine": 3,
+                    "processing_time": 8.329042919013393,
+                    "setup_time": 1.9321336631123447,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 41,
+            "completed_operations": 0,
+            "priority": 1,
+            "machine_seq": [
+                2,
+                5,
+                5,
+                4,
+                3
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 46,
+            "operations": [
+                {
+                    "job_id": 46,
+                    "op_id": 0,
+                    "machine": 1,
+                    "processing_time": 12.372973572372716,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 1,
+                    "machine": 3,
+                    "processing_time": 19.430951873819435,
+                    "setup_time": 2.0525389150129403,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 2,
+                    "machine": 7,
+                    "processing_time": 7.026681930055871,
+                    "setup_time": 0.36309575004655414,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 3,
+                    "machine": 8,
+                    "processing_time": 11.637516183755208,
+                    "setup_time": 1.8831129722299527,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 4,
+                    "machine": 4,
+                    "processing_time": 8.035613569507962,
+                    "setup_time": 1.9881322330112576,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 5,
+                    "machine": 5,
+                    "processing_time": 8.093984589760893,
+                    "setup_time": 1.912816020876258,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 6,
+                    "machine": 0,
+                    "processing_time": 12.817792684838139,
+                    "setup_time": 1.50746505157591,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 46,
+                    "op_id": 7,
+                    "machine": 4,
+                    "processing_time": 14.11952305613961,
+                    "setup_time": 1.950123690920633,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 15,
+            "completed_operations": 0,
+            "priority": 3,
+            "machine_seq": [
+                1,
+                3,
+                7,
+                8,
+                4,
+                5,
+                0,
+                4
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 47,
+            "operations": [
+                {
+                    "job_id": 47,
+                    "op_id": 0,
+                    "machine": 5,
+                    "processing_time": 16.052031194237088,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 1,
+                    "machine": 9,
+                    "processing_time": 7.36784117631973,
+                    "setup_time": 1.665240564006369,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 2,
+                    "machine": 0,
+                    "processing_time": 5.087697147736661,
+                    "setup_time": 1.709278720114097,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 3,
+                    "machine": 0,
+                    "processing_time": 12.376066705020808,
+                    "setup_time": 2.8023572495105915,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 4,
+                    "machine": 7,
+                    "processing_time": 9.789762194041705,
+                    "setup_time": 1.1405165040497702,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 5,
+                    "machine": 6,
+                    "processing_time": 8.542659742802568,
+                    "setup_time": 1.9235401768819598,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 47,
+                    "op_id": 6,
+                    "machine": 9,
+                    "processing_time": 11.997555676717228,
+                    "setup_time": 0.7935557773536454,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 25,
+            "completed_operations": 0,
+            "priority": 4,
+            "machine_seq": [
+                5,
+                9,
+                0,
+                0,
+                7,
+                6,
+                9
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 48,
+            "operations": [
+                {
+                    "job_id": 48,
+                    "op_id": 0,
+                    "machine": 2,
+                    "processing_time": 14.963153803512826,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 48,
+                    "op_id": 1,
+                    "machine": 5,
+                    "processing_time": 16.100428635084175,
+                    "setup_time": 1.9420316500507369,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 48,
+                    "op_id": 2,
+                    "machine": 6,
+                    "processing_time": 5.646090252298759,
+                    "setup_time": 1.5421756880309894,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 48,
+                    "op_id": 3,
+                    "machine": 4,
+                    "processing_time": 7.93365247609317,
+                    "setup_time": 2.160942847478254,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 30,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                2,
+                5,
+                6,
+                4
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 49,
+            "operations": [
+                {
+                    "job_id": 49,
+                    "op_id": 0,
+                    "machine": 9,
+                    "processing_time": 13.516106015283752,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 49,
+                    "op_id": 1,
+                    "machine": 7,
+                    "processing_time": 9.484461882865194,
+                    "setup_time": 2.9882017833521415,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 49,
+                    "op_id": 2,
+                    "machine": 4,
+                    "processing_time": 14.82456033804608,
+                    "setup_time": 0.9045389975066302,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 49,
+                    "op_id": 3,
+                    "machine": 1,
+                    "processing_time": 17.55159663150383,
+                    "setup_time": 1.0416647819069635,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 49,
+                    "op_id": 4,
+                    "machine": 5,
+                    "processing_time": 8.104602592893086,
+                    "setup_time": 1.4021478620063936,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 26,
+            "completed_operations": 0,
+            "priority": 4,
+            "machine_seq": [
+                9,
+                7,
+                4,
+                1,
+                5
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 50,
+            "operations": [
+                {
+                    "job_id": 50,
+                    "op_id": 0,
+                    "machine": 4,
+                    "processing_time": 9.393778078853247,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 1,
+                    "machine": 3,
+                    "processing_time": 10.161637708628088,
+                    "setup_time": 1.266428386083783,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 2,
+                    "machine": 0,
+                    "processing_time": 16.01776378271785,
+                    "setup_time": 2.1952776193521277,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 3,
+                    "machine": 5,
+                    "processing_time": 9.990008366511455,
+                    "setup_time": 0.5620582324535089,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 4,
+                    "machine": 3,
+                    "processing_time": 12.965884043146993,
+                    "setup_time": 1.5110223705429529,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 5,
+                    "machine": 9,
+                    "processing_time": 14.731965313801105,
+                    "setup_time": 2.7460255139401157,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 50,
+                    "op_id": 6,
+                    "machine": 6,
+                    "processing_time": 15.075012768615121,
+                    "setup_time": 0.7263078110762534,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 28,
             "completed_operations": 0,
             "priority": 5,
             "machine_seq": [
-                5,
+                4,
+                3,
                 0,
-                8,
-                7,
+                5,
                 3,
-                3,
-                2,
+                9,
                 6
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 51,
+            "operations": [
+                {
+                    "job_id": 51,
+                    "op_id": 0,
+                    "machine": 7,
+                    "processing_time": 11.806363958565354,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 1,
+                    "machine": 6,
+                    "processing_time": 17.340987562587895,
+                    "setup_time": 2.445222630154695,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 2,
+                    "machine": 2,
+                    "processing_time": 11.681123335822678,
+                    "setup_time": 1.2669158479135985,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 3,
+                    "machine": 9,
+                    "processing_time": 16.04306756784655,
+                    "setup_time": 2.558346557772061,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 4,
+                    "machine": 5,
+                    "processing_time": 14.269448675585954,
+                    "setup_time": 2.3674170636523706,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 5,
+                    "machine": 7,
+                    "processing_time": 15.737291110501618,
+                    "setup_time": 0.13880816602578594,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 51,
+                    "op_id": 6,
+                    "machine": 8,
+                    "processing_time": 7.310706288296836,
+                    "setup_time": 2.3101997376997248,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 22,
+            "completed_operations": 0,
+            "priority": 1,
+            "machine_seq": [
+                7,
+                6,
+                2,
+                9,
+                5,
+                7,
+                8
+            ],
+            "current_operation": 0
+        },
+        {
+            "job_id": 52,
+            "operations": [
+                {
+                    "job_id": 52,
+                    "op_id": 0,
+                    "machine": 8,
+                    "processing_time": 9.48558148879048,
+                    "setup_time": 0.0,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 1,
+                    "machine": 6,
+                    "processing_time": 13.481977958388624,
+                    "setup_time": 2.633909573955317,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 2,
+                    "machine": 1,
+                    "processing_time": 12.201567818363081,
+                    "setup_time": 1.818891461618066,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 3,
+                    "machine": 0,
+                    "processing_time": 4.733695949234376,
+                    "setup_time": 1.6928216701630894,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 4,
+                    "machine": 9,
+                    "processing_time": 18.885176234494896,
+                    "setup_time": 0.01315193475010934,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 5,
+                    "machine": 1,
+                    "processing_time": 16.519733504121426,
+                    "setup_time": 0.9412791237435281,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 6,
+                    "machine": 2,
+                    "processing_time": 13.497417264215805,
+                    "setup_time": 2.9788486881911727,
+                    "status": "pending"
+                },
+                {
+                    "job_id": 52,
+                    "op_id": 7,
+                    "machine": 4,
+                    "processing_time": 6.628109832810571,
+                    "setup_time": 0.9455650155366212,
+                    "status": "pending"
+                }
+            ],
+            "arrival_time": 45,
+            "completed_operations": 0,
+            "priority": 2,
+            "machine_seq": [
+                8,
+                6,
+                1,
+                0,
+                9,
+                1,
+                2,
+                4
             ],
             "current_operation": 0
         }
@@ -2241,21 +3317,21 @@
             "status": "available",
             "current_job": null,
             "next_available_time": 0,
-            "type": "general"
+            "type": "special"
         },
         {
             "machine_id": 1,
             "status": "available",
             "current_job": null,
             "next_available_time": 0,
-            "type": "special"
+            "type": "general"
         },
         {
             "machine_id": 2,
             "status": "available",
             "current_job": null,
             "next_available_time": 0,
-            "type": "special"
+            "type": "general"
         },
         {
             "machine_id": 3,
@@ -2276,7 +3352,7 @@
             "status": "available",
             "current_job": null,
             "next_available_time": 0,
-            "type": "special"
+            "type": "general"
         },
         {
             "machine_id": 6,
@@ -2290,7 +3366,7 @@
             "status": "available",
             "current_job": null,
             "next_available_time": 0,
-            "type": "general"
+            "type": "special"
         },
         {
             "machine_id": 8,
@@ -2311,25 +3387,25 @@
         "resource_capacity": 6,
         "machines": [
             {
-                "machine_id": 7,
-                "status": "available",
-                "current_job": null,
-                "next_available_time": 0,
-                "type": "general"
-            },
-            {
-                "machine_id": 4,
+                "machine_id": 9,
                 "status": "available",
                 "current_job": null,
                 "next_available_time": 0,
                 "type": "special"
             },
             {
-                "machine_id": 3,
+                "machine_id": 7,
                 "status": "available",
                 "current_job": null,
                 "next_available_time": 0,
-                "type": "general"
+                "type": "special"
+            },
+            {
+                "machine_id": 0,
+                "status": "available",
+                "current_job": null,
+                "next_available_time": 0,
+                "type": "special"
             },
             {
                 "machine_id": 8,
@@ -2339,14 +3415,14 @@
                 "type": "general"
             },
             {
-                "machine_id": 1,
+                "machine_id": 3,
                 "status": "available",
                 "current_job": null,
                 "next_available_time": 0,
-                "type": "special"
+                "type": "general"
             },
             {
-                "machine_id": 0,
+                "machine_id": 5,
                 "status": "available",
                 "current_job": null,
                 "next_available_time": 0,
